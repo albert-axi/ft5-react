@@ -7,6 +7,16 @@
   pointer-events: none;
 }
 
+div#movie-list {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.movie-card {
+  width: 20%;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
